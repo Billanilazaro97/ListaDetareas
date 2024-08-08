@@ -44,3 +44,50 @@ searchInput.addEventListener('input', function() {
         }
     });
 });
+
+
+
+
+
+taskInput.addEventListener("keydown", function(e){
+    if(e.key === "Enter"){
+        addTask()
+    }
+})
+
+
+// let formulario = document.getElementByid("formulario");
+
+// formulario.addEventListener("submit", function(e){
+//     e.preventDefault()
+// })
+
+// input.addEventListener("input", function(e){
+//     let valorDelInput = e.target.value
+//     console.log("El valor del input es" + valorDelInput)
+// })
+
+// window.addEventListener("unload", function(){
+//     console.log("La pagina esta a punto de ser descargada")
+// })
+
+
+
+
+// function hacerAlgo(callback) {
+//     console.log("Haciendo algo...")
+//     setTimeout(function() {
+//         console.log("Tarea Terminada..")
+//         callback()
+
+//     }, 2000);
+// }
+
+// function completado(){
+//     console.log("La tarea ha sido completada")
+// }
+
+// hacerAlgo(completado)
+
+
+

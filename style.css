@@ -14,5 +14,12 @@ h1, li {
 
 
 button {
-    color: red;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#56cfe1;
+}
+
+input {
+    color:#56cfe1;
 }

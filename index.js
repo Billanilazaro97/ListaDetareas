@@ -163,6 +163,46 @@
 
 // condicion ? "Lo que sucede si es verdadero" : "Lo que sucede si es falso"
 
+// <---------------------------------------------------------->
+// localStorage.setItem(`ùsername`, `usuario1`);
+// console.log(localStorage.getItem(`username`));
+
+// console.log(localStorage.getItem(`username`));
+
+
+// localStorage.setItem("apellido", "billani");
+
+// const usuario = {
+//     nombre: "kevin",
+//     edad: 25,
+//     email: "Lazaro@gmail.com"
+// };
+
+// sessionStorage.setItem("usuario", JSON.stringify(usuario));
+
+
+// let contador = 0;
+
+// function incrementarContador(){
+//     contador++;
+//     localStorage.setItem("contador", contador.toString());
+// }
+
+// incrementarContador()
+
+
+// let valorDelContador = localStorage.getItem("contador")
+
+// console.log(valorDelContador)
+
+
+// let objetoJsonPersona = sessionStorage.getItem("usuario")
+
+// let objetoPersona = JSON.parse (objetoJsonPersona)
+
+
+
+
 
 
 
